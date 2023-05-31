@@ -37,3 +37,32 @@ struct Card: Codable {
     }
 }
 
+struct CardDetails: Codable {
+    let cardImageURL: String?
+    let name: String?
+    let flavorText: String?
+    let shortDescription: String?
+    let cardSet: String?
+    let type: String?
+    let faction: String?
+    let rarity: String?
+    let attack: Int?
+    let cost: Int?
+    let health: Int?
+
+    enum CodingKeys: String, CodingKey {
+        case cardImageURL = "img"
+        case name
+        case flavorText = "flavor"
+        case shortDescription = "text"
+        case cardSet = "cardSet"
+        case type
+        case faction
+        case rarity
+        case attack
+        case cost
+        case health
+    }
+}
+
+

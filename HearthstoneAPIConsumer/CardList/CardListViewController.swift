@@ -7,11 +7,9 @@
 
 import UIKit
 
-class CardListViewController: UIViewController {
+class CardListViewController: HearthStoneAPIBaseViewController {
     private var tableView: UITableView!
     private var viewModel: CardListViewModel!
-    private var loadingIndicator: UIActivityIndicatorView!
-    private var alertView: UIAlertController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,34 +46,6 @@ class CardListViewController: UIViewController {
         showLoadingIndicator()
         viewModel.fetchCards()
     }
-    
-    private func showLoadingIndicator() {
-        loadingIndicator = UIActivityIndicatorView(style: .large)
-        loadingIndicator.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(loadingIndicator)
-        
-        NSLayoutConstraint.activate([
-            loadingIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            loadingIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor)
-        ])
-        
-        loadingIndicator.startAnimating()
-    }
-    
-    private func hideLoadingIndicator() {
-        loadingIndicator.stopAnimating()
-        loadingIndicator.removeFromSuperview()
-    }
-    
-    private func showAlert(message: String) {
-        alertView = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alertView?.addAction(okAction)
-        
-        if let alert = alertView {
-            present(alert, animated: true, completion: nil)
-        }
-    }
 }
 
 extension CardListViewController: UITableViewDelegate, UITableViewDataSource {
@@ -100,8 +70,8 @@ extension CardListViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedCard = viewModel.cards[indexPath.row]
-//        let cardDetailViewController = CardDetailViewController(card: selectedCard)
-//        navigationController?.pushViewController(cardDetailViewController, animated: true)
+        let cardDetailViewController = CardDetailViewController(viewModel: CardDetailViewModel(card: selectedCard))
+        navigationController?.pushViewController(cardDetailViewController, animated: true)
     }
 }
 

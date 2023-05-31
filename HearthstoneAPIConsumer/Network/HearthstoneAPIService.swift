@@ -50,5 +50,38 @@ class HearthstoneAPIService {
             }
         }.resume()
     }
+    
+    func getCard(withName name: String, completion: @escaping (Result<CardDetails, APIError>) -> Void) {
+        guard let encodedName = name.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
+              let url = URL(string: "\(baseURL)/cards/\(encodedName)") else {
+            completion(.failure(.invalidURL))
+            return
+        }
+        
+        var request = URLRequest(url: url)
+        request.allHTTPHeaderFields = headers
+        
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error {
+                completion(.failure(.requestFailed(error)))
+                return
+            }
+            
+            guard let data = data else {
+                completion(.failure(.invalidResponse))
+                return
+            }
+            
+            do {
+                let response = try JSONDecoder().decode([CardDetails].self, from: data)
+                if let cardDetails = response.first {
+                    completion(.success(cardDetails))
+                } else {
+                    completion(.failure(.decodingFailed(APIError.invalidResponse)))
+                }
+            } catch {
+                completion(.failure(.decodingFailed(error)))
+            }
+        }.resume()
+    }
 }
-

@@ -14,12 +14,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        // Cria a instância da CardListViewController
         let cardListViewController = CardListViewController()
-        
+        let navigationController = UINavigationController(rootViewController: cardListViewController)
+        window?.rootViewController = navigationController
         // Configura a UIWindow
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = cardListViewController
+        window.rootViewController = navigationController
         self.window = window
         window.makeKeyAndVisible()
     }

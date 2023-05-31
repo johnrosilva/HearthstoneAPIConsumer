@@ -21,6 +21,15 @@
 		0B45FD4F2A22E5690095FC69 /* CardListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD4E2A22E5690095FC69 /* CardListTableViewCell.swift */; };
 		0B45FD532A22F06A0095FC69 /* cards_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B45FD522A22F06A0095FC69 /* cards_mock.json */; };
 		0B45FD552A22F4280095FC69 /* CardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD542A22F4280095FC69 /* CardResponse.swift */; };
+		0B45FD592A26A42A0095FC69 /* CardDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD582A26A42A0095FC69 /* CardDetailViewModel.swift */; };
+		0B45FD5C2A26A50A0095FC69 /* card_detail_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B45FD5B2A26A50A0095FC69 /* card_detail_mock.json */; };
+		0B45FD5D2A26A50A0095FC69 /* card_detail_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B45FD5B2A26A50A0095FC69 /* card_detail_mock.json */; };
+		0B45FD5F2A26B7D70095FC69 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD5E2A26B7D70095FC69 /* CardDetailViewController.swift */; };
+		0B45FD622A26BB920095FC69 /* HearthStoneAPIBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD612A26BB920095FC69 /* HearthStoneAPIBaseViewController.swift */; };
+		0B45FD652A27A79A0095FC69 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD642A27A79A0095FC69 /* UIImage+Extension.swift */; };
+		0B45FD672A27A8010095FC69 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD662A27A8010095FC69 /* ImageHelper.swift */; };
+		0B45FD692A27BD070095FC69 /* CardDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD682A27BD070095FC69 /* CardDimensions.swift */; };
+		0B45FD6C2A27BD5A0095FC69 /* CardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD6B2A27BD5A0095FC69 /* CardLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +68,14 @@
 		0B45FD4E2A22E5690095FC69 /* CardListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListTableViewCell.swift; sourceTree = "<group>"; };
 		0B45FD522A22F06A0095FC69 /* cards_mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cards_mock.json; sourceTree = "<group>"; };
 		0B45FD542A22F4280095FC69 /* CardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardResponse.swift; sourceTree = "<group>"; };
+		0B45FD582A26A42A0095FC69 /* CardDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewModel.swift; sourceTree = "<group>"; };
+		0B45FD5B2A26A50A0095FC69 /* card_detail_mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = card_detail_mock.json; sourceTree = "<group>"; };
+		0B45FD5E2A26B7D70095FC69 /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
+		0B45FD612A26BB920095FC69 /* HearthStoneAPIBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthStoneAPIBaseViewController.swift; sourceTree = "<group>"; };
+		0B45FD642A27A79A0095FC69 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		0B45FD662A27A8010095FC69 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		0B45FD682A27BD070095FC69 /* CardDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDimensions.swift; sourceTree = "<group>"; };
+		0B45FD6B2A27BD5A0095FC69 /* CardLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +126,11 @@
 		0B45FD132A22E0B30095FC69 /* HearthstoneAPIConsumer */ = {
 			isa = PBXGroup;
 			children = (
+				0B45FD6A2A27BD4E0095FC69 /* Components */,
+				0B45FD632A27A7880095FC69 /* Extensions */,
+				0B45FD602A26BB700095FC69 /* Base */,
+				0B45FD5A2A26A4E90095FC69 /* Resources */,
+				0B45FD572A26A4170095FC69 /* CardDetail */,
 				0B45FD4A2A22E50A0095FC69 /* Model */,
 				0B45FD472A22E49E0095FC69 /* Network */,
 				0B45FD442A22E3CC0095FC69 /* CardList */,
@@ -144,7 +166,6 @@
 				0B45FD4D2A22E55A0095FC69 /* Cell */,
 				0B45FD182A22E0B30095FC69 /* CardListViewController.swift */,
 				0B45FD452A22E4490095FC69 /* CardListViewModel.swift */,
-				0B45FD522A22F06A0095FC69 /* cards_mock.json */,
 			);
 			path = CardList;
 			sourceTree = "<group>";
@@ -172,6 +193,50 @@
 				0B45FD4E2A22E5690095FC69 /* CardListTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		0B45FD572A26A4170095FC69 /* CardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0B45FD582A26A42A0095FC69 /* CardDetailViewModel.swift */,
+				0B45FD5E2A26B7D70095FC69 /* CardDetailViewController.swift */,
+			);
+			path = CardDetail;
+			sourceTree = "<group>";
+		};
+		0B45FD5A2A26A4E90095FC69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B45FD522A22F06A0095FC69 /* cards_mock.json */,
+				0B45FD5B2A26A50A0095FC69 /* card_detail_mock.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B45FD602A26BB700095FC69 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0B45FD612A26BB920095FC69 /* HearthStoneAPIBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0B45FD632A27A7880095FC69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B45FD642A27A79A0095FC69 /* UIImage+Extension.swift */,
+				0B45FD662A27A8010095FC69 /* ImageHelper.swift */,
+				0B45FD682A27BD070095FC69 /* CardDimensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0B45FD6A2A27BD4E0095FC69 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0B45FD6B2A27BD5A0095FC69 /* CardLabel.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B45FD5C2A26A50A0095FC69 /* card_detail_mock.json in Resources */,
 				0B45FD212A22E0B40095FC69 /* LaunchScreen.storyboard in Resources */,
 				0B45FD1E2A22E0B40095FC69 /* Assets.xcassets in Resources */,
 				0B45FD532A22F06A0095FC69 /* cards_mock.json in Resources */,
@@ -288,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B45FD5D2A26A50A0095FC69 /* card_detail_mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,11 +374,18 @@
 			files = (
 				0B45FD462A22E4490095FC69 /* CardListViewModel.swift in Sources */,
 				0B45FD4C2A22E5140095FC69 /* Card.swift in Sources */,
+				0B45FD592A26A42A0095FC69 /* CardDetailViewModel.swift in Sources */,
+				0B45FD652A27A79A0095FC69 /* UIImage+Extension.swift in Sources */,
 				0B45FD4F2A22E5690095FC69 /* CardListTableViewCell.swift in Sources */,
 				0B45FD192A22E0B30095FC69 /* CardListViewController.swift in Sources */,
+				0B45FD5F2A26B7D70095FC69 /* CardDetailViewController.swift in Sources */,
 				0B45FD152A22E0B30095FC69 /* AppDelegate.swift in Sources */,
+				0B45FD692A27BD070095FC69 /* CardDimensions.swift in Sources */,
+				0B45FD672A27A8010095FC69 /* ImageHelper.swift in Sources */,
+				0B45FD6C2A27BD5A0095FC69 /* CardLabel.swift in Sources */,
 				0B45FD492A22E4CC0095FC69 /* HearthstoneAPIService.swift in Sources */,
 				0B45FD552A22F4280095FC69 /* CardResponse.swift in Sources */,
+				0B45FD622A26BB920095FC69 /* HearthStoneAPIBaseViewController.swift in Sources */,
 				0B45FD172A22E0B30095FC69 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

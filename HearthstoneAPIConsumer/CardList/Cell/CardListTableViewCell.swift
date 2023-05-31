@@ -62,7 +62,14 @@ class CardListTableViewCell: UITableViewCell {
     }
     
     func configure(with card: Card) {
-        cardImageView.image = UIImage(named: "default_card")
+        if let cardImage = card.img {
+            ImageHelper.default.getImage(cardImage, forSize: CGSize(width: 200, height: 300)) { [weak self]
+                image in
+                self?.cardImageView.image = image
+            }
+        } else {
+            cardImageView.image = UIImage(named: "default_card")
+        }
         nameLabel.text = card.name
         typeLabel.text = card.type
     }

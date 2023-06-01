@@ -1,0 +1,458 @@
+{
+  "Basic": [
+  ],
+  "Classic": [
+    {
+      "cardId": "EX1_549",
+      "dbfId": 903,
+      "name": "Bestial Wrath",
+      "cardSet": "Classic",
+      "type": "Spell",
+      "faction": "Neutral",
+      "rarity": "Epic",
+      "cost": 1,
+      "text": "Give a friendly Beast +2 Attack and <b>Immune</b> this turn.",
+      "flavor": "The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.",
+      "artist": "Alex Horley Orlandelli",
+      "collectible": true,
+      "playerClass": "Hunter",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4bc3f18fa202a3083d5a9e6810f2a3e71083f238ff274c47ebe1e02e4ebfd0bc.png",
+      "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5203d0c9c287ae1f13993cb38cf9d86d7a3aa040703f82d3efb2de6fdec3708.png",
+      "locale": "enUS"
+    }
+  ],
+  "Hall of Fame": [
+    {
+      "cardId": "EX1_620",
+      "dbfId": 1372,
+      "name": "Molten Giant",
+      "cardSet": "Hall of Fame",
+      "type": "Minion",
+      "rarity": "Epic",
+      "cost": 20,
+      "attack": 8,
+      "health": 8,
+      "text": "Costs (1) less for each damage your hero has taken.",
+      "flavor": "He gets terrible heartburn.  BECAUSE HE IS FULL OF LAVA.",
+      "artist": "Glenn Rane",
+      "collectible": true,
+      "race": "Elemental",
+      "playerClass": "Neutral",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1638b2f6f9c1c63d3241a7d9520064f769de309d529ffc615656dae794baa137.png",
+      "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/282b0f6ccc26ad258fd306a6f821bed89dbf985019fa33ddb817d2f7031a1ce2.png",
+      "locale": "enUS"
+    }
+  ],
+  "Missions": [
+  ],
+  "Demo": [],
+  "System": [],
+  "Debug": [],
+  "Promo": [],
+  "Naxxramas": [
+    {
+      "cardId": "FP1_013",
+      "dbfId": 1794,
+      "name": "Kel'Thuzad",
+      "cardSet": "Naxxramas",
+      "type": "Minion",
+      "rarity": "Legendary",
+      "cost": 8,
+      "attack": 6,
+      "health": 8,
+      "text": "At the end of each turn, summon all friendly minions that died this turn.",
+      "flavor": "Kel'Thuzad could not resist the call of the Lich King. Even when it's just a robo-call extolling the Lich King's virtues.",
+      "artist": "Chris Robinson",
+      "collectible": true,
+      "elite": true,
+      "race": "Undead",
+      "playerClass": "Neutral",
+      "howToGet": "Unlocked in Frostwyrm Lair, in the Naxxramas adventure.",
+      "howToGetGold": "Crafting unlocked in Frostwyrm Lair, in the Naxxramas adventure.",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/86c497996e5246638124e1379a79f1c55e00bd875c89681fc7505a4ff4efbedb.png",
+      "locale": "enUS"
+    }
+  ],
+  "Goblins vs Gnomes": [
+  ],
+  "Blackrock Mountain": [
+    {
+      "cardId": "BRM_030",
+      "dbfId": 2261,
+      "name": "Nefarian",
+      "cardSet": "Blackrock Mountain",
+      "type": "Minion",
+      "rarity": "Legendary",
+      "cost": 9,
+      "attack": 8,
+      "health": 8,
+      "text": "<b>Battlecry:</b> Add 2 random spells to your hand <i>(from your opponent's class)</i>.",
+      "flavor": "They call him \"Blackwing\" because he's a black dragon...... and he's got wings.",
+      "artist": "Ruan Jia",
+      "collectible": true,
+      "elite": true,
+      "race": "Dragon",
+      "playerClass": "Neutral",
+      "howToGet": "Unlocked in Hidden Laboratory, in the Blackrock Mountain adventure.",
+      "howToGetGold": "Crafting unlocked in Hidden Laboratory, in the Blackrock Mountain adventure.",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3dbe35945ca83c9390687b8e7e5bd2cfbcf95f45d28dd49ddea03beea10b017b.png",
+      "locale": "enUS",
+      "mechanics": [
+        {
+          "name": "Battlecry"
+        }
+      ]
+    }
+  ],
+  "The Grand Tournament": [
+  ],
+  "Credits": [
+  ],
+  "Hero Skins": [
+    {
+      "cardId": "CS2_049_H2_AT_132",
+      "dbfId": 53239,
+      "name": "Totemic Slam",
+      "cardSet": "Hero Skins",
+      "type": "Hero Power",
+      "cost": 2,
+      "text": "<b>Hero Power</b>\nSummon a Totem of your choice.",
+      "playerClass": "Shaman",
+      "locale": "enUS"
+    }
+  ],
+  "Tavern Brawl": [
+    {
+      "cardId": "PVPDR_BAR_Passive12e1",
+      "dbfId": 71114,
+      "name": "[PH] Passive Treasure 12 Enchantment",
+      "cardSet": "Tavern Brawl",
+      "type": "Enchantment",
+      "faction": "Neutral",
+      "text": "Not Yet Defined.",
+      "playerClass": "Neutral",
+      "locale": "enUS"
+    }
+  ],
+  "The League of Explorers": [
+    {
+      "cardId": "LOE_027",
+      "dbfId": 2899,
+      "name": "Sacred Trial",
+      "cardSet": "The League of Explorers",
+      "type": "Spell",
+      "rarity": "Common",
+      "cost": 1,
+      "text": "<b>Secret:</b> After your opponent has at least 3 minions and plays another, destroy it.",
+      "flavor": "You have chosen poorly.",
+      "artist": "Zoltan Boros",
+      "collectible": true,
+      "playerClass": "Paladin",
+      "spellSchool": "Holy",
+      "howToGet": "Unlocked in the Temple of Orsis, in the League of Explorers adventure.",
+      "howToGetGold": "Crafting unlocked in the Temple of Orsis, in the League of Explorers adventure.",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81f020ba97aea10f082a35564b6563b22d18e897196352938b27f1da2a31a08f.png",
+      "locale": "enUS",
+      "mechanics": [
+        {
+          "name": "Secret"
+        }
+      ]
+    }
+  ],
+  "Whispers of the Old Gods": [
+    {
+      "cardId": "OG_134",
+      "dbfId": 38505,
+      "name": "Yogg-Saron, Hope's End",
+      "cardSet": "Whispers of the Old Gods",
+      "type": "Minion",
+      "rarity": "Legendary",
+      "cost": 10,
+      "attack": 7,
+      "health": 5,
+      "text": "<b>Battlecry:</b> Cast a random spell for each spell you've cast this game <i>(targets chosen randomly)</i>.",
+      "flavor": "I spell your doom... Y-O-U-R D-O-O-M!",
+      "artist": "Tooth",
+      "collectible": true,
+      "elite": true,
+      "playerClass": "Neutral",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0553724e772e15feece2235c5bd0a24a625d2f58bf5429a895e79312148d1a9.png",
+      "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca8a8ec01cf91ee9d8393dffc82ca1f8fae19f4a2516b5517a2037783e14d958.png",
+      "locale": "enUS",
+      "mechanics": [
+        {
+          "name": "Battlecry"
+        }
+      ]
+    }
+  ],
+  "One Night in Karazhan": [
+  ],
+  "Mean Streets of Gadgetzan": [
+  ],
+  "Journey to Un'Goro": [
+  ],
+  "Knights of the Frozen Throne": [
+  ],
+  "Kobolds & Catacombs": [
+    {
+      "cardId": "LOOTA_814",
+      "dbfId": 46418,
+      "name": "Wish",
+      "cardSet": "Kobolds & Catacombs",
+      "type": "Spell",
+      "faction": "Neutral",
+      "cost": 10,
+      "text": "Fill your board with <b>Legendary</b> minions. Fully heal your hero.",
+      "artist": "Arthur Bozonnet",
+      "playerClass": "Neutral",
+      "locale": "enUS"
+    }
+  ],
+  "The Witchwood": [
+    {
+      "cardId": "GILA_612",
+      "dbfId": 49491,
+      "name": "Seabreaker Goliath",
+      "cardSet": "The Witchwood",
+      "type": "Minion",
+      "cost": 10,
+      "attack": 15,
+      "health": 15,
+      "text": "Costs (1) less for each time you've fired your Cannons.",
+      "artist": "Rafael Zanchetin",
+      "race": "Pirate",
+      "playerClass": "Neutral",
+      "locale": "enUS"
+    }
+  ],
+  "The Boomsday Project": [
+    {
+      "cardId": "BOT_424",
+      "dbfId": 48625,
+      "name": "Mecha'thun",
+      "cardSet": "The Boomsday Project",
+      "type": "Minion",
+      "rarity": "Legendary",
+      "cost": 10,
+      "attack": 10,
+      "health": 10,
+      "text": "[x]<b>Deathrattle:</b> If you have no\ncards in your deck, hand,\nand battlefield, destroy\nthe enemy hero.",
+      "flavor": "\"Your software will fail. Your users will abandon you. You are already obsolete.\"",
+      "artist": "James Ryman",
+      "collectible": true,
+      "elite": true,
+      "race": "Mech",
+      "playerClass": "Neutral",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/891780008b525429031ada4153dcce8b648507d33638bad651a1d4de1bfba8e0.png",
+      "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d3017a4a79259c9ef7403f6797cc21f2ecab8d1131b4d4e5317a1cd7db6512b1.png",
+      "locale": "enUS",
+      "mechanics": [
+        {
+          "name": "Deathrattle"
+        }
+      ]
+    }
+  ],
+  "Rastakhan's Rumble": [
+  ],
+  "Rise of Shadows": [
+  ],
+  "Taverns of Time": [
+    {
+      "cardId": "TOT_110",
+      "dbfId": 51067,
+      "name": "Timebound Giant",
+      "cardSet": "Taverns of Time",
+      "type": "Minion",
+      "faction": "Neutral",
+      "cost": 15,
+      "attack": 8,
+      "health": 8,
+      "text": "Costs (1) less for each card you've drawn.",
+      "playerClass": "Neutral",
+      "locale": "enUS"
+    }
+  ],
+  "Saviors of Uldum": [
+  ],
+  "Descent of Dragons": [
+  ],
+  "Galakrond's Awakening": [
+  ],
+  "Ashes of Outland": [
+  ],
+  "Wild Event": [],
+  "Scholomance Academy": [
+  ],
+  "Battlegrounds": [
+    {
+      "cardId": "BG23_HERO_305p",
+      "dbfId": 86292,
+      "name": "The Perfect Crime",
+      "cardSet": "Battlegrounds",
+      "type": "Hero Power",
+      "cost": 10,
+      "text": "[x]Steal all minions in\nBob's Tavern. Each turn,\nyour next Hero Power\ncosts (1) less.",
+      "playerClass": "Neutral",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a73b657c6bdf36e355acadbbbb545b423d59e3c4d903e702677b06a9c7cd7978.png",
+      "locale": "enUS"
+    }
+  ],
+  "Demon Hunter Initiate": [
+    {
+      "cardId": "BT_481",
+      "dbfId": 58172,
+      "name": "Nethrandamus",
+      "cardSet": "Demon Hunter Initiate",
+      "type": "Minion",
+      "rarity": "Legendary",
+      "cost": 9,
+      "attack": 8,
+      "health": 8,
+      "text": "[x]<b>Battlecry:</b> Summon two\nrandom @-Cost minions.\n<i>(Upgrades each time a\nfriendly minion dies!)</i>",
+      "flavor": "Missed the big descent with the other dragons. But better late and nether!",
+      "artist": "Rafael Zanchetin",
+      "collectible": true,
+      "elite": true,
+      "race": "Dragon",
+      "playerClass": "Demon Hunter",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afe038a10c235e89ad22d1e43b4ae655f7ae61049abacb4313f6fbcb70dd8c96.png",
+      "locale": "enUS",
+      "mechanics": [
+        {
+          "name": "Battlecry"
+        }
+      ]
+    }
+  ],
+  "Madness At The Darkmoon Faire": [
+  ],
+  "Forged in the Barrens": [
+    {
+      "cardId": "Story_07_YseraDormant",
+      "dbfId": 71519,
+      "name": "Ysera",
+      "cardSet": "Forged in the Barrens",
+      "type": "Minion",
+      "cost": 11,
+      "attack": 0,
+      "health": 1,
+      "text": "<b>Dormant</b>",
+      "elite": true,
+      "race": "Dragon",
+      "playerClass": "Druid",
+      "locale": "enUS",
+      "mechanics": [
+        {
+          "name": "Dormant"
+        }
+      ]
+    }
+  ],
+  "Legacy": [
+    {
+      "cardId": "CS1_113",
+      "dbfId": 8,
+      "name": "Mind Control",
+      "cardSet": "Legacy",
+      "type": "Spell",
+      "faction": "Neutral",
+      "rarity": "Free",
+      "cost": 10,
+      "text": "Take control of an enemy minion.",
+      "flavor": "Nominated as \"Spell Most Likely to Make Your Opponent Punch the Wall.\"",
+      "artist": "Sean O’Daniels",
+      "collectible": true,
+      "playerClass": "Priest",
+      "spellSchool": "Shadow",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/93487dc84f38632f652324d52a715adb06173cf3f9cde8df9c341aa72ac1cd6c.png",
+      "imgGold": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49608fa1a41e744132d0cd97c25f7fd6005fcde7728cd41f4b02667dc2f3f725.png",
+      "locale": "enUS"
+    }
+  ],
+  "Core": [
+  ],
+  "Vanilla": [
+    {
+      "cardId": "VAN_GAME_004",
+      "dbfId": 68485,
+      "name": "AFK",
+      "cardSet": "Vanilla",
+      "type": "Enchantment",
+      "text": "Your turns are shorter.",
+      "playerClass": "Neutral",
+      "locale": "enUS"
+    }
+  ],
+  "Wailing Caverns": [],
+  "United in Stormwind": [
+    {
+      "cardId": "Story_10_LadyVashjDormant",
+      "dbfId": 76370,
+      "name": "Lady Vashj",
+      "cardSet": "United in Stormwind",
+      "type": "Minion",
+      "cost": 11,
+      "attack": 0,
+      "health": 1,
+      "text": "<b>Dormant</b>",
+      "elite": true,
+      "playerClass": "Neutral",
+      "locale": "enUS",
+      "mechanics": [
+        {
+          "name": "Dormant"
+        }
+      ]
+    }
+  ],
+  "Mercenaries": [
+    {
+      "cardId": "LT23_826P4_2",
+      "dbfId": 92346,
+      "name": "Obliterate 2",
+      "cardSet": "Mercenaries",
+      "cost": 99,
+      "text": "Deal $@ damage to all enemies.",
+      "playerClass": "Neutral",
+      "spellSchool": "Arcane",
+      "locale": "enUS"
+    }
+  ],
+  "Fractured in Alterac Valley": [
+  ],
+  "Voyage to the Sunken City": [
+  ],
+  "Unknown": [
+  ],
+  "Murder at Castle Nathria": [
+  ],
+  "March of the Lich King": [
+    {
+      "cardId": "RLK_604t2",
+      "dbfId": 93886,
+      "name": "Phoenix Egg",
+      "cardSet": "March of the Lich King",
+      "type": "Minion",
+      "cost": 21,
+      "attack": 0,
+      "health": 1,
+      "text": "<b>Dormant</b>\nCast a Fire spell to\nrevive Thori'belore!",
+      "elite": true,
+      "playerClass": "Warrior",
+      "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30548a2ef42565ad4f1461340a9a81454815ce31fbc2065d133d1793a29390e4.png",
+      "locale": "enUS",
+      "mechanics": [
+        {
+          "name": "Dormant"
+        }
+      ]
+    }
+  ],
+  "Path of Arthas": [
+  ],
+  "Festival of Legends": [
+  ]
+}

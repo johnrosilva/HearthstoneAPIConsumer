@@ -16,7 +16,7 @@
 		0B45FD362A22E0B40095FC69 /* HearthstoneAPIConsumerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD352A22E0B40095FC69 /* HearthstoneAPIConsumerUITests.swift */; };
 		0B45FD382A22E0B40095FC69 /* HearthstoneAPIConsumerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD372A22E0B40095FC69 /* HearthstoneAPIConsumerUITestsLaunchTests.swift */; };
 		0B45FD462A22E4490095FC69 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD452A22E4490095FC69 /* CardListViewModel.swift */; };
-		0B45FD492A22E4CC0095FC69 /* HearthstoneAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD482A22E4CC0095FC69 /* HearthstoneAPIService.swift */; };
+		0B45FD492A22E4CC0095FC69 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD482A22E4CC0095FC69 /* CardService.swift */; };
 		0B45FD4C2A22E5140095FC69 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD4B2A22E5140095FC69 /* Card.swift */; };
 		0B45FD4F2A22E5690095FC69 /* CardListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD4E2A22E5690095FC69 /* CardListTableViewCell.swift */; };
 		0B45FD532A22F06A0095FC69 /* cards_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B45FD522A22F06A0095FC69 /* cards_mock.json */; };
@@ -30,6 +30,15 @@
 		0B45FD672A27A8010095FC69 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD662A27A8010095FC69 /* ImageHelper.swift */; };
 		0B45FD692A27BD070095FC69 /* CardDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD682A27BD070095FC69 /* CardDimensions.swift */; };
 		0B45FD6C2A27BD5A0095FC69 /* CardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD6B2A27BD5A0095FC69 /* CardLabel.swift */; };
+		0B45FD742A27EF770095FC69 /* CardServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD732A27EF770095FC69 /* CardServiceTests.swift */; };
+		0B45FD792A27F81B0095FC69 /* CardListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD782A27F81B0095FC69 /* CardListViewModelTests.swift */; };
+		0B45FD7B2A27FC0D0095FC69 /* cards_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B45FD522A22F06A0095FC69 /* cards_mock.json */; };
+		0B45FD7C2A27FC4F0095FC69 /* cards_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B45FD522A22F06A0095FC69 /* cards_mock.json */; };
+		0B45FD7D2A27FC540095FC69 /* card_detail_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B45FD5B2A26A50A0095FC69 /* card_detail_mock.json */; };
+		0BD3CB912A27FEE200CFB7D6 /* CardListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB902A27FEE200CFB7D6 /* CardListViewControllerTests.swift */; };
+		0BD3CB932A28006A00CFB7D6 /* CardListViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB922A28006A00CFB7D6 /* CardListViewModelMock.swift */; };
+		0BD3CB952A28161B00CFB7D6 /* CardListTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB942A28161B00CFB7D6 /* CardListTableViewCellTests.swift */; };
+		0BD3CB992A2858AC00CFB7D6 /* MockCardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB982A2858AC00CFB7D6 /* MockCardService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +72,7 @@
 		0B45FD352A22E0B40095FC69 /* HearthstoneAPIConsumerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneAPIConsumerUITests.swift; sourceTree = "<group>"; };
 		0B45FD372A22E0B40095FC69 /* HearthstoneAPIConsumerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneAPIConsumerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0B45FD452A22E4490095FC69 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
-		0B45FD482A22E4CC0095FC69 /* HearthstoneAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneAPIService.swift; sourceTree = "<group>"; };
+		0B45FD482A22E4CC0095FC69 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		0B45FD4B2A22E5140095FC69 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		0B45FD4E2A22E5690095FC69 /* CardListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListTableViewCell.swift; sourceTree = "<group>"; };
 		0B45FD522A22F06A0095FC69 /* cards_mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cards_mock.json; sourceTree = "<group>"; };
@@ -76,6 +85,13 @@
 		0B45FD662A27A8010095FC69 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		0B45FD682A27BD070095FC69 /* CardDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDimensions.swift; sourceTree = "<group>"; };
 		0B45FD6B2A27BD5A0095FC69 /* CardLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLabel.swift; sourceTree = "<group>"; };
+		0B45FD732A27EF770095FC69 /* CardServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardServiceTests.swift; sourceTree = "<group>"; };
+		0B45FD782A27F81B0095FC69 /* CardListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModelTests.swift; sourceTree = "<group>"; };
+		0BD3CB902A27FEE200CFB7D6 /* CardListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewControllerTests.swift; sourceTree = "<group>"; };
+		0BD3CB922A28006A00CFB7D6 /* CardListViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModelMock.swift; sourceTree = "<group>"; };
+		0BD3CB942A28161B00CFB7D6 /* CardListTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListTableViewCellTests.swift; sourceTree = "<group>"; };
+		0BD3CB982A2858AC00CFB7D6 /* MockCardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCardService.swift; sourceTree = "<group>"; };
+		0BD3CB9A2A285C9E00CFB7D6 /* HearthstoneAPIConsumer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = HearthstoneAPIConsumer.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +122,7 @@
 		0B45FD082A22E0B30095FC69 = {
 			isa = PBXGroup;
 			children = (
+				0BD3CB9A2A285C9E00CFB7D6 /* HearthstoneAPIConsumer.xctestplan */,
 				0B45FD132A22E0B30095FC69 /* HearthstoneAPIConsumer */,
 				0B45FD2A2A22E0B40095FC69 /* HearthstoneAPIConsumerTests */,
 				0B45FD342A22E0B40095FC69 /* HearthstoneAPIConsumerUITests */,
@@ -129,15 +146,13 @@
 				0B45FD6A2A27BD4E0095FC69 /* Components */,
 				0B45FD632A27A7880095FC69 /* Extensions */,
 				0B45FD602A26BB700095FC69 /* Base */,
-				0B45FD5A2A26A4E90095FC69 /* Resources */,
 				0B45FD572A26A4170095FC69 /* CardDetail */,
 				0B45FD4A2A22E50A0095FC69 /* Model */,
 				0B45FD472A22E49E0095FC69 /* Network */,
 				0B45FD442A22E3CC0095FC69 /* CardList */,
 				0B45FD142A22E0B30095FC69 /* AppDelegate.swift */,
 				0B45FD162A22E0B30095FC69 /* SceneDelegate.swift */,
-				0B45FD1D2A22E0B40095FC69 /* Assets.xcassets */,
-				0B45FD1F2A22E0B40095FC69 /* LaunchScreen.storyboard */,
+				0B45FD5A2A26A4E90095FC69 /* Resources */,
 				0B45FD222A22E0B40095FC69 /* Info.plist */,
 			);
 			path = HearthstoneAPIConsumer;
@@ -146,6 +161,10 @@
 		0B45FD2A2A22E0B40095FC69 /* HearthstoneAPIConsumerTests */ = {
 			isa = PBXGroup;
 			children = (
+				0B45FD7A2A27F9740095FC69 /* Mock */,
+				0B45FD722A27EF690095FC69 /* Service */,
+				0B45FD752A27F5600095FC69 /* CardList */,
+				0B45FD6D2A27ED4D0095FC69 /* CardDetail */,
 				0B45FD2B2A22E0B40095FC69 /* HearthstoneAPIConsumerTests.swift */,
 			);
 			path = HearthstoneAPIConsumerTests;
@@ -173,7 +192,7 @@
 		0B45FD472A22E49E0095FC69 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				0B45FD482A22E4CC0095FC69 /* HearthstoneAPIService.swift */,
+				0B45FD482A22E4CC0095FC69 /* CardService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -207,8 +226,8 @@
 		0B45FD5A2A26A4E90095FC69 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0B45FD522A22F06A0095FC69 /* cards_mock.json */,
-				0B45FD5B2A26A50A0095FC69 /* card_detail_mock.json */,
+				0B45FD1F2A22E0B40095FC69 /* LaunchScreen.storyboard */,
+				0B45FD1D2A22E0B40095FC69 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -237,6 +256,42 @@
 				0B45FD6B2A27BD5A0095FC69 /* CardLabel.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		0B45FD6D2A27ED4D0095FC69 /* CardDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CardDetail;
+			sourceTree = "<group>";
+		};
+		0B45FD722A27EF690095FC69 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0BD3CB982A2858AC00CFB7D6 /* MockCardService.swift */,
+				0B45FD732A27EF770095FC69 /* CardServiceTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0B45FD752A27F5600095FC69 /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				0B45FD782A27F81B0095FC69 /* CardListViewModelTests.swift */,
+				0BD3CB902A27FEE200CFB7D6 /* CardListViewControllerTests.swift */,
+				0BD3CB922A28006A00CFB7D6 /* CardListViewModelMock.swift */,
+				0BD3CB942A28161B00CFB7D6 /* CardListTableViewCellTests.swift */,
+			);
+			path = CardList;
+			sourceTree = "<group>";
+		};
+		0B45FD7A2A27F9740095FC69 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				0B45FD522A22F06A0095FC69 /* cards_mock.json */,
+				0B45FD5B2A26A50A0095FC69 /* card_detail_mock.json */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B45FD5D2A26A50A0095FC69 /* card_detail_mock.json in Resources */,
+				0B45FD7B2A27FC0D0095FC69 /* cards_mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +418,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B45FD7D2A27FC540095FC69 /* card_detail_mock.json in Resources */,
+				0B45FD7C2A27FC4F0095FC69 /* cards_mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +441,7 @@
 				0B45FD692A27BD070095FC69 /* CardDimensions.swift in Sources */,
 				0B45FD672A27A8010095FC69 /* ImageHelper.swift in Sources */,
 				0B45FD6C2A27BD5A0095FC69 /* CardLabel.swift in Sources */,
-				0B45FD492A22E4CC0095FC69 /* HearthstoneAPIService.swift in Sources */,
+				0B45FD492A22E4CC0095FC69 /* CardService.swift in Sources */,
 				0B45FD552A22F4280095FC69 /* CardResponse.swift in Sources */,
 				0B45FD622A26BB920095FC69 /* HearthStoneAPIBaseViewController.swift in Sources */,
 				0B45FD172A22E0B30095FC69 /* SceneDelegate.swift in Sources */,
@@ -394,7 +452,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD3CB932A28006A00CFB7D6 /* CardListViewModelMock.swift in Sources */,
+				0BD3CB952A28161B00CFB7D6 /* CardListTableViewCellTests.swift in Sources */,
+				0BD3CB992A2858AC00CFB7D6 /* MockCardService.swift in Sources */,
 				0B45FD2C2A22E0B40095FC69 /* HearthstoneAPIConsumerTests.swift in Sources */,
+				0BD3CB912A27FEE200CFB7D6 /* CardListViewControllerTests.swift in Sources */,
+				0B45FD792A27F81B0095FC69 /* CardListViewModelTests.swift in Sources */,
+				0B45FD742A27EF770095FC69 /* CardServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

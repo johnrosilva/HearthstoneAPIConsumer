@@ -8,9 +8,18 @@
 import UIKit
 
 class CardListViewController: HearthStoneAPIBaseViewController {
-    private var tableView: UITableView!
-    private var viewModel: CardListViewModel!
-
+    var tableView: UITableView!
+    var viewModel: CardListViewModel!
+    
+    init(viewModel: CardListViewModel) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.isHidden = false
@@ -38,7 +47,6 @@ class CardListViewController: HearthStoneAPIBaseViewController {
     }
     
     private func setupViewModel() {
-        viewModel = CardListViewModel()
         viewModel.delegate = self
     }
     

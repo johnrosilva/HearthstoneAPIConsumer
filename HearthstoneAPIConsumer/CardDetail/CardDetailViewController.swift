@@ -50,7 +50,7 @@ class CardDetailViewController: HearthStoneAPIBaseViewController {
         return activityIndicatorView
     }()
     
-    private let viewModel: CardDetailViewModel
+    let viewModel: CardDetailViewModel
     
     init(viewModel: CardDetailViewModel) {
         self.viewModel = viewModel

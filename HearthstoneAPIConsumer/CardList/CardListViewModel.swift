@@ -14,10 +14,10 @@ protocol CardListViewModelDelegate: AnyObject {
 
 class CardListViewModel {
     weak var delegate: CardListViewModelDelegate?
-    private let apiService: HearthstoneAPIService
-    private(set) var cards: [Card] = []
+    private let apiService: CardServiceProtocol
+    var cards: [Card] = []
 
-    init(apiService: HearthstoneAPIService = HearthstoneAPIService()) {
+    init(apiService: CardServiceProtocol = CardService()) {
         self.apiService = apiService
     }
 

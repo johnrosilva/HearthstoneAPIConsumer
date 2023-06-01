@@ -38,6 +38,7 @@ struct Card: Codable {
 }
 
 struct CardDetails: Codable {
+    let cardId: String?
     let cardImageURL: String?
     let name: String?
     let flavorText: String?
@@ -51,6 +52,7 @@ struct CardDetails: Codable {
     let health: Int?
 
     enum CodingKeys: String, CodingKey {
+        case cardId
         case cardImageURL = "img"
         case name
         case flavorText = "flavor"

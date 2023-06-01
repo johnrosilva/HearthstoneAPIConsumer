@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "36858DD0-2BA3-47B4-BE0E-CC5AA544A40D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HearthstoneAPIConsumer.xcodeproj",
+      "identifier" : "0B45FD102A22E0B30095FC69",
+      "name" : "HearthstoneAPIConsumer"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HearthstoneAPIConsumer.xcodeproj",
+        "identifier" : "0B45FD262A22E0B40095FC69",
+        "name" : "HearthstoneAPIConsumerTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HearthstoneAPIConsumer.xcodeproj",
+        "identifier" : "0B45FD302A22E0B40095FC69",
+        "name" : "HearthstoneAPIConsumerUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

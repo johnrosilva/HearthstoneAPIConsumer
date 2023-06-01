@@ -11,21 +11,21 @@ import UIKit
 class CardListTableViewCell: UITableViewCell {
     static let reuseIdentifier = "CardListTableViewCell"
     
-    private let cardImageView: UIImageView = {
+    let cardImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
     
-    private let nameLabel: UILabel = {
+    let nameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 16)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    private let typeLabel: UILabel = {
+    let typeLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 14)
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -41,7 +41,7 @@ class CardListTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func setupUI() {
+    func setupUI() {
         contentView.addSubview(cardImageView)
         contentView.addSubview(nameLabel)
         contentView.addSubview(typeLabel)

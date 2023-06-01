@@ -14,19 +14,19 @@ protocol CardDetailViewModelDelegate: AnyObject {
 
 class CardDetailViewModel {
     weak var delegate: CardDetailViewModelDelegate?
-    private let apiService: HearthstoneAPIService
-    private let card: Card
+    private let apiService: CardServiceProtocol
+    let card: Card
     private(set) var cardDetails: CardDetails?
     
     var emptyInfo: String = "Unknown"
     
-    init(card: Card, apiService: HearthstoneAPIService = HearthstoneAPIService()) {
+    init(card: Card, apiService: CardServiceProtocol = CardService()) {
         self.card = card
         self.apiService = apiService
     }
     
     func fetchCardDetails() {
-        apiService.getCard(withName: card.cardId ?? "") { [weak self] result in
+        apiService.getCard(withID: card.cardId ?? "") { [weak self] result in
             switch result {
             case .success(let cardDetails):
                 self?.cardDetails = cardDetails

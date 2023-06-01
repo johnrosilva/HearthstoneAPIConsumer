@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B38C67B2A28725700C47041 /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B38C67A2A28725700C47041 /* UIImageExtensionTests.swift */; };
+		0B38C67D2A28748A00C47041 /* CardServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B38C67C2A28748A00C47041 /* CardServiceConfigurator.swift */; };
+		0B38C67E2A28758E00C47041 /* CardServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B38C67C2A28748A00C47041 /* CardServiceConfigurator.swift */; };
 		0B45FD152A22E0B30095FC69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD142A22E0B30095FC69 /* AppDelegate.swift */; };
 		0B45FD172A22E0B30095FC69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD162A22E0B30095FC69 /* SceneDelegate.swift */; };
 		0B45FD192A22E0B30095FC69 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B45FD182A22E0B30095FC69 /* CardListViewController.swift */; };
@@ -39,6 +42,10 @@
 		0BD3CB932A28006A00CFB7D6 /* CardListViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB922A28006A00CFB7D6 /* CardListViewModelMock.swift */; };
 		0BD3CB952A28161B00CFB7D6 /* CardListTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB942A28161B00CFB7D6 /* CardListTableViewCellTests.swift */; };
 		0BD3CB992A2858AC00CFB7D6 /* MockCardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB982A2858AC00CFB7D6 /* MockCardService.swift */; };
+		0BD3CB9C2A285E4400CFB7D6 /* CardDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB9B2A285E4400CFB7D6 /* CardDetailViewModelTests.swift */; };
+		0BD3CB9F2A285ED900CFB7D6 /* CardDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CB9E2A285ED900CFB7D6 /* CardDetailViewControllerTests.swift */; };
+		0BD3CBA12A28615D00CFB7D6 /* MockCardDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CBA02A28615D00CFB7D6 /* MockCardDetailViewModel.swift */; };
+		0BD3CBA42A286AD900CFB7D6 /* HearthStoneAPIBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3CBA32A286AD900CFB7D6 /* HearthStoneAPIBaseViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B38C67A2A28725700C47041 /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
+		0B38C67C2A28748A00C47041 /* CardServiceConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardServiceConfigurator.swift; sourceTree = "<group>"; };
 		0B45FD112A22E0B30095FC69 /* HearthstoneAPIConsumer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearthstoneAPIConsumer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B45FD142A22E0B30095FC69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B45FD162A22E0B30095FC69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +101,10 @@
 		0BD3CB942A28161B00CFB7D6 /* CardListTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListTableViewCellTests.swift; sourceTree = "<group>"; };
 		0BD3CB982A2858AC00CFB7D6 /* MockCardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCardService.swift; sourceTree = "<group>"; };
 		0BD3CB9A2A285C9E00CFB7D6 /* HearthstoneAPIConsumer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = HearthstoneAPIConsumer.xctestplan; sourceTree = "<group>"; };
+		0BD3CB9B2A285E4400CFB7D6 /* CardDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewModelTests.swift; sourceTree = "<group>"; };
+		0BD3CB9E2A285ED900CFB7D6 /* CardDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		0BD3CBA02A28615D00CFB7D6 /* MockCardDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCardDetailViewModel.swift; sourceTree = "<group>"; };
+		0BD3CBA32A286AD900CFB7D6 /* HearthStoneAPIBaseViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthStoneAPIBaseViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +132,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B38C6792A28724B00C47041 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B38C67A2A28725700C47041 /* UIImageExtensionTests.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0B45FD082A22E0B30095FC69 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +182,8 @@
 		0B45FD2A2A22E0B40095FC69 /* HearthstoneAPIConsumerTests */ = {
 			isa = PBXGroup;
 			children = (
+				0B38C6792A28724B00C47041 /* Extensions */,
+				0BD3CBA22A286ACD00CFB7D6 /* Base */,
 				0B45FD7A2A27F9740095FC69 /* Mock */,
 				0B45FD722A27EF690095FC69 /* Service */,
 				0B45FD752A27F5600095FC69 /* CardList */,
@@ -193,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				0B45FD482A22E4CC0095FC69 /* CardService.swift */,
+				0B38C67C2A28748A00C47041 /* CardServiceConfigurator.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -261,6 +285,9 @@
 		0B45FD6D2A27ED4D0095FC69 /* CardDetail */ = {
 			isa = PBXGroup;
 			children = (
+				0BD3CB9B2A285E4400CFB7D6 /* CardDetailViewModelTests.swift */,
+				0BD3CB9E2A285ED900CFB7D6 /* CardDetailViewControllerTests.swift */,
+				0BD3CBA02A28615D00CFB7D6 /* MockCardDetailViewModel.swift */,
 			);
 			path = CardDetail;
 			sourceTree = "<group>";
@@ -292,6 +319,14 @@
 				0B45FD5B2A26A50A0095FC69 /* card_detail_mock.json */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		0BD3CBA22A286ACD00CFB7D6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0BD3CBA32A286AD900CFB7D6 /* HearthStoneAPIBaseViewControllerTests.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +470,7 @@
 				0B45FD592A26A42A0095FC69 /* CardDetailViewModel.swift in Sources */,
 				0B45FD652A27A79A0095FC69 /* UIImage+Extension.swift in Sources */,
 				0B45FD4F2A22E5690095FC69 /* CardListTableViewCell.swift in Sources */,
+				0B38C67D2A28748A00C47041 /* CardServiceConfigurator.swift in Sources */,
 				0B45FD192A22E0B30095FC69 /* CardListViewController.swift in Sources */,
 				0B45FD5F2A26B7D70095FC69 /* CardDetailViewController.swift in Sources */,
 				0B45FD152A22E0B30095FC69 /* AppDelegate.swift in Sources */,
@@ -453,11 +489,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BD3CB932A28006A00CFB7D6 /* CardListViewModelMock.swift in Sources */,
+				0B38C67B2A28725700C47041 /* UIImageExtensionTests.swift in Sources */,
 				0BD3CB952A28161B00CFB7D6 /* CardListTableViewCellTests.swift in Sources */,
 				0BD3CB992A2858AC00CFB7D6 /* MockCardService.swift in Sources */,
+				0BD3CBA12A28615D00CFB7D6 /* MockCardDetailViewModel.swift in Sources */,
+				0BD3CBA42A286AD900CFB7D6 /* HearthStoneAPIBaseViewControllerTests.swift in Sources */,
+				0B38C67E2A28758E00C47041 /* CardServiceConfigurator.swift in Sources */,
 				0B45FD2C2A22E0B40095FC69 /* HearthstoneAPIConsumerTests.swift in Sources */,
 				0BD3CB912A27FEE200CFB7D6 /* CardListViewControllerTests.swift in Sources */,
+				0BD3CB9C2A285E4400CFB7D6 /* CardDetailViewModelTests.swift in Sources */,
 				0B45FD792A27F81B0095FC69 /* CardListViewModelTests.swift in Sources */,
+				0BD3CB9F2A285ED900CFB7D6 /* CardDetailViewControllerTests.swift in Sources */,
 				0B45FD742A27EF770095FC69 /* CardServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

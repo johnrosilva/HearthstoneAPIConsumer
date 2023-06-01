@@ -20,20 +20,20 @@ protocol CardServiceProtocol {
 }
 
 class CardService: CardServiceProtocol {
-    private let baseURL = "https://omgvamp-hearthstone-v1.p.rapidapi.com"
-    private let headers = [
-        "X-RapidAPI-Host": "omgvamp-hearthstone-v1.p.rapidapi.com",
-        "X-RapidAPI-Key": "a917dd62f1msh7eace64eef7af1bp1a748fjsne76c256ff8cc"
-    ]
+    private let configuration: CardServiceConfiguration
+    
+    init(configuration: CardServiceConfiguration = CardServiceConfigurator.shared.configure()) {
+        self.configuration = configuration
+    }
     
     func fetchAllCards(completion: @escaping (Result<[Card], APIError>) -> Void) {
-        guard let url = URL(string: "\(baseURL)/cards") else {
+        guard let url = URL(string: "\(configuration.baseURL)/cards") else {
             completion(.failure(.invalidURL))
             return
         }
         
         var request = URLRequest(url: url)
-        request.allHTTPHeaderFields = headers
+        request.allHTTPHeaderFields = configuration.headers
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
@@ -57,13 +57,13 @@ class CardService: CardServiceProtocol {
     }
     
     func getCard(withID id: String, completion: @escaping (Result<CardDetails, APIError>) -> Void) {
-        guard let url = URL(string: "\(baseURL)/cards/\(id)") else {
+        guard let url = URL(string: "\(configuration.baseURL)/cards/\(id)") else {
             completion(.failure(.invalidURL))
             return
         }
         
         var request = URLRequest(url: url)
-        request.allHTTPHeaderFields = headers
+        request.allHTTPHeaderFields = configuration.headers
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {

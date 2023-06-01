@@ -8,29 +8,32 @@
 import UIKit
 
 class CardDetailViewController: HearthStoneAPIBaseViewController {
-    private let cardImageView: UIImageView = {
+    
+    var viewModel: CardDetailViewModel
+    
+    let cardImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
     
-    private let nameLabel: UILabel = {
+    let nameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 20)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
-    private let flavorLabel = CardLabel()
-    private let descriptionLabel = CardLabel()
-    private let setLabel = CardLabel()
-    private let typeLabel = CardLabel()
-    private let factionLabel = CardLabel()
-    private let rarityLabel = CardLabel()
-    private let attackLabel = CardLabel()
-    private let costLabel = CardLabel()
-    private let healthLabel = CardLabel()
+    let flavorLabel = CardLabel()
+    let descriptionLabel = CardLabel()
+    let setLabel = CardLabel()
+    let typeLabel = CardLabel()
+    let factionLabel = CardLabel()
+    let rarityLabel = CardLabel()
+    let attackLabel = CardLabel()
+    let costLabel = CardLabel()
+    let healthLabel = CardLabel()
     
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
@@ -44,13 +47,11 @@ class CardDetailViewController: HearthStoneAPIBaseViewController {
         return view
     }()
     
-    private let activityIndicatorView: UIActivityIndicatorView = {
+    let activityIndicatorView: UIActivityIndicatorView = {
         let activityIndicatorView = UIActivityIndicatorView()
         activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
         return activityIndicatorView
     }()
-    
-    let viewModel: CardDetailViewModel
     
     init(viewModel: CardDetailViewModel) {
         self.viewModel = viewModel
@@ -149,12 +150,12 @@ class CardDetailViewController: HearthStoneAPIBaseViewController {
         view.addSubview(activityIndicatorView)
     }
     
-    private func fetchCardDetails() {
+    func fetchCardDetails() {
         self.showLoadingIndicator()
         viewModel.fetchCardDetails()
     }
     
-    private func displayCardDetails() {
+    internal func displayCardDetails() {
         guard let cardDetails = viewModel.cardDetails else {
             return
         }
@@ -168,7 +169,7 @@ class CardDetailViewController: HearthStoneAPIBaseViewController {
                 self.cardImageView.image = UIImage(named: "default_card")
             }
             
-            self.nameLabel.text = cardDetails.name
+            self.nameLabel.text = cardDetails.name ?? ""
             
             self.flavorLabel.attributedText = self.attributedString(from: cardDetails.flavorText)
             self.descriptionLabel.attributedText = self.attributedString(from: cardDetails.shortDescription)

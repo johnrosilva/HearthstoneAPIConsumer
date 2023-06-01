@@ -9,7 +9,7 @@ import UIKit
 
 class HearthStoneAPIBaseViewController: UIViewController {
     
-    private var loadingIndicator: UIActivityIndicatorView!
+    var loadingIndicator: UIActivityIndicatorView!
     public var alertView: UIAlertController?
     
     public func showLoadingIndicator() {
@@ -32,15 +32,11 @@ class HearthStoneAPIBaseViewController: UIViewController {
         }
     }
     
-    public func showAlert(message: String) {
-        DispatchQueue.main.async {
-            self.alertView = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-            self.alertView?.addAction(okAction)
-            
-            if let alert = self.alertView {
-                self.present(alert, animated: true, completion: nil)
-            }
-        }
+    public func showAlert(message: String) -> UIAlertController {
+        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(okAction)
+        return alertController
     }
+
 }

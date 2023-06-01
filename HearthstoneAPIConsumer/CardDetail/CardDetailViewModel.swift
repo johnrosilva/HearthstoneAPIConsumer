@@ -16,7 +16,7 @@ class CardDetailViewModel {
     weak var delegate: CardDetailViewModelDelegate?
     private let apiService: CardServiceProtocol
     let card: Card
-    private(set) var cardDetails: CardDetails?
+    var cardDetails: CardDetails?
     
     var emptyInfo: String = "Unknown"
     

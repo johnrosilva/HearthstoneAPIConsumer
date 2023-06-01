@@ -17,7 +17,7 @@ class CardListViewModel {
     private let apiService: CardServiceProtocol
     var cards: [Card] = []
 
-    init(apiService: CardServiceProtocol = CardService()) {
+    init(apiService: CardServiceProtocol = CardService(configuration: CardServiceConfigurator.shared.configure())) {
         self.apiService = apiService
     }
 
